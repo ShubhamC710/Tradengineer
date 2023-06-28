@@ -1,0 +1,575 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="ISO-8859-1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- link fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- link slick slider cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Tradengineer</title>
+</head>
+
+<body>
+	<input type="hidden" id ="status" value="<%= request.getAttribute("status") %>
+    <!-- #################################################################################  Home Section   ####################################################################################### -->
+
+    <div class="hero" id="content">
+
+        <video class="back-video" src="./Background.mp4" autoplay loop muted plays-inline type="video/mp4"></video>
+
+        <nav>
+            <img src="./white class logo1.png" class="logo" width="80px" alt="">
+            <ul class="list">
+                <li><a href="#content">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#service">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <!-- <h1>ENGINEER <br> <span>TRADER IN YOU !</span></h1> -->
+            <h1 data-aos="fade-in-zoom" data-aos-offset="100" data-aos-delay="100">TRAD<span>ENGINEER</span></h1>
+            <p>Your search for the best trading course ends here, as we not only teach but ensure that you start your profit !
+            </p>
+            <a href="#">Get Started</a>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+    </div>
+
+    <!-- #################################################################################  What We Preach   ####################################################################################### -->
+
+    <div class="header">
+        <h1 data-aos="fade-up" data-aos-offset="100">What We <span class="heading">Preach ?</span></h1>
+    </div>
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="./1-01.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">INNOVATION</div>
+                    <div class="blog-slider__text">Let’s get driven by the new idea & explore the new ways by learning more & experimenting more!
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="./2-01.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">QUALITY</div>
+                    <div class="blog-slider__text">We ensure to deliver the quality content as our students are valuable Traders.
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="./3-01.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">EXPERIENCE</div>
+                    <div class="blog-slider__text">Experience is the master of all learnings. Therefore we make sure you learn effectively by more practice & dedication
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="./4-01.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">SATISFIED STUDENTS</div>
+                    <div class="blog-slider__text">The main goal of teaching is to make the learner satisfied. We strive our best to make our students learn & apply the best out of it
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="./5-01.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">SUPPORT</div>
+                    <div class="blog-slider__text">Support from our team will definetly make you clear in your path of your Trading Journey.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="blog-slider__pagination"></div>
+    </div>
+
+    <!-- #################################################################################  About Us   ####################################################################################### -->
+
+    <div class="section" id="about">
+        <div class="container">
+            <div class="title">
+                <h1 data-aos="fade-up" data-aos-offset="100">About <span>Us</span></h1>
+            </div>
+            <div class="con">
+                <div class="article">
+                    <h3>
+                        TRAD<span>ENGINEER</span> is an great initiative for the young generation who are ready to rise above all the incapabilities & make more, willing to step forward and be free from financial situations. Tradengineer is the Best Stock
+                        Market Institute that provides you with Best Online Stock Market knowledge. It is boon for people who are keen in undestanding the market and how to make money out of it.
+                        <!-- </h3> -->
+                        <!-- <p> -->
+                        The most precised thing you will learn is about trading, enough knowledge and experience. Generally, trading is considered as a business that is not suitable for everyone, but this is just a hoax that we clear by making you learn about the strategies
+                        that can provide a good profit.
+                    </h3>
+                    <!-- </p> -->
+                    <div class="button">
+                        <a href="#learn">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="./6-01.png" width="50%" alt="Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- #################################################################################  Our Services   ####################################################################################### -->
+
+    <div class="service" id="service">
+        <div class="max-width">
+            <h1 data-aos="fade-up" data-aos-offset="100">Our <span>Services</span></h1>
+            <div class="para">
+                <div class="card">
+                    <div class="box">
+                        <img src="./7-01.png" width="100px" alt="">
+                        <h3>Quality Content</h3>
+                        <p>The Objective of the Course is equip the participant with necessary stock market theoretical and practical know-how so that students can apply for wealth creation.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./8-01.png" width="100px" alt="">
+                        <h3>Daily Watch List</h3>
+                        <p>
+                            Fresh lists of the best stocks to trade with detailed game plans.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./9-01.png" width="100px" alt="">
+                        <h3>Free consultancy</h3>
+                        <p>
+                            We offer our consultancy from the start of your Trading including the psychology.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./10-01.png" width="100px" alt="">
+                        <h3>Group Webinars</h3>
+                        <p>
+                            Interactive study groups, trade recaps, and Q&A sessions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- #################################################################################  What will you learn   ####################################################################################### -->
+
+    <div class="learn"  id="learn">
+        <div class="head">
+            <h1 data-aos="fade-up" data-aos-offset="100">What You Will <span>Learn</span></h1>
+        </div>
+        <div class="learncon">
+            <h3 data-aos="fade-right" data-aos-offset="100" data-aos-delay="100">BMPP course only in 6 weeks! </h3><br>
+            <h2 data-aos="fade-right" data-aos-offset="100" data-aos-delay="200">(Basic to Master In Price Prediction)</h2>
+            <ul>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="300">> Study of Market Action</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="400">> Important terms of Trading & Investing</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="500">> The Structure of Indian Stock Market</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="600">> Technical Analysis with Master Psychologies</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="700">> Advanced Price Patterns</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="800">> Trading Discipline & Trade Management</li>
+            </ul>
+        </div>
+        <div class="learncon1">
+            <h3 data-aos="fade-right" data-aos-offset="100" data-aos-delay="900">MPP course only in 4 weeks!</h3>
+            <h2 data-aos="fade-right" data-aos-offset="100" data-aos-delay="1000">(Master In Price Prediction)</h2>
+            <ul>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="1100">> Study of Market Action</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="1200">> Important terms of Trading & Investing</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="1300">> The Structure of Indian Stock Market</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="1400">> Technical Analysis with Master Psychologies</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="1500">> Advanced Price Patterns</li>
+                <li data-aos="fade-right" data-aos-offset="100" data-aos-delay="1600">> Trading Discipline & Trade Management</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>For more details <br> Download our Brochure</h3>
+            <a href="./brochure.pdf">Download</a>
+        </div>
+        <div class="imgcon">
+            <img src="./11-02.png" width="700px" alt="">
+        </div>
+    </div>
+
+    <!-- #################################################################################  TRADENGINEER Membership  ####################################################################################### -->
+
+    <div class="membership">
+        <div>
+            <h1 data-aos="fade-up" data-aos-offset="100">Perks Of <span>Tradengineer Membership</span></h1>
+            <p>Trad<span>engineer</span> members have a exposure of basic concepts and they get a overview of not only the techniques but also a proper regular guidance from mentors. We here at Tradengineer have mentors who are experienced and have good
+                knowledge about the ways and Techniques which are not taught in every Stock Market Class. </p>
+        </div>
+        <div class="flex-container">
+            <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="100">
+                <img src="./check-box.png" alt="">
+                <h6>Revisions Classes</h6>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="200">
+                <img src="./check-box.png" alt="">
+                <h6>Life Time Support</h6>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="300">
+                <img src="./check-box.png" alt="">
+                <h6>Dedicated Mentors</h6>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="400">
+                <img src="./check-box.png" alt="">
+                <h6>Demo Class</h6>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="500">
+                <img src="./check-box.png" alt="">
+                <h6>Regular Doubt <br> Clearing Sessions</h6>
+            </div>
+            <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="600">
+                <img src="./check-box.png" alt="">
+                <h6>Both Online & Offline<br> classes available</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- #################################################################################  Book A Call  ####################################################################################### -->
+
+    <div class="book-call">
+        <a href="#contact" data-aos="fade-in-zoom" data-aos-offset="100">Book a Free Call Now!</a>
+    </div>
+
+    <!-- #################################################################################  Glimpses  ####################################################################################### -->
+
+    <div class="glimpse">
+        <div>
+            <h1 data-aos="fade-up" data-aos-offset="100">Class <span>Glimpses</span></h1>
+        </div>
+    </div>
+
+    <div class="slider">
+        <input type="radio" name="testimonial" id="t-1">
+        <input type="radio" name="testimonial" id="t-2">
+        <input type="radio" name="testimonial" id="t-3" checked>
+        <input type="radio" name="testimonial" id="t-4">
+        <input type="radio" name="testimonial" id="t-5">
+        <div class="testimonials">
+            <label class="item" for="t-1">
+              <img src="./IMG_0234.JPG" alt="picture">
+              
+          </label>
+            <label class="item" for="t-2">
+              <img src="./IMG_0236.JPG" alt="picture">
+              
+          </label>
+            <label class="item" for="t-3">
+              <img src="./IMG_0239.JPG" alt="picture">
+              
+          </label>
+            <label class="item" for="t-4">
+              <img src="./IMG_0240.JPG" alt="picture">
+              
+          </label>
+            <label class="item" for="t-5">
+              <img src="./IMG_0244.JPG" alt="picture">
+              
+          </label>
+        </div>
+        <div class="dots">
+            <label for="t-1"></label>
+            <label for="t-2"></label>
+            <label for="t-3"></label>
+            <label for="t-4"></label>
+            <label for="t-5"></label>
+        </div>
+    </div>
+
+
+    <!-- #################################################################################  Mentor  ####################################################################################### -->
+
+    <div class="mentor">
+        <h1 data-aos="fade-up" data-aos-offset="100">Our <span>Mentor</span></h1>
+    </div>
+    <div class="mentor-content">
+        <div class="container0">
+            <img src="./mentor2.jpg" alt="Avatar" class="image">
+            <div class="overlay">Mr.Shubham Chavan <br>(Founder of tradengineer)<br> Technical Analyst</div>
+        </div>
+        <div class="container1">
+            <img src="./mentor1.jpg" alt="Avatar" class="image">
+            <div class="overlay">Mr.Rushikesh Burkul <br>(Founder of tradengineer) <br> Technical Analyst</div>
+        </div>
+    </div>
+
+
+    <!-- #################################################################################  Testimonial  ####################################################################################### -->
+
+
+
+    <div class="test1">
+        <div>
+            <h1 data-aos="fade-up" data-aos-offset="100"> Our Students <span>Review</span></h1>
+        </div>
+    </div>
+
+    <section class="testimonial_wrapp">
+
+        <div class="conttainer">
+            <div class="slider1">
+                <div class="item1">
+                    <div class="inner">
+                        <div class="thumb">
+                            <img src="./2.png" width="100px" alt="">
+                        </div>
+                        <div class="excert">
+                            <p>I learned Online and Offline lectures with big support & they cured my Psychology query about stock trading. I had an awesome experience doing the share trading course at the <strong>Tradengineer Classes.</strong></p>
+                        </div>
+                        <div class="info">
+                            <p>
+                                <i class="fa fa-quote-right"></i>
+                                <a href="#">Mr.Vishal Manikparkhe</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item1">
+                    <div class="inner">
+                        <div class="thumb">
+                            <img src="./3.png" width="100px" alt="">
+                        </div>
+                        <div class="excert">
+                            <p>“It was an amazing experience at Tradengineer Academy” They have guided us wholeheartedly throughout our course. I would recommend to the aspire traders to take definetly take this course.</p>
+                        </div>
+                        <div class="info">
+                            <p>
+                                <i class="fa fa-quote-right"></i>
+                                <a href="#">Mr.Sarvesh Khochade</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item1">
+                    <div class="inner">
+                        <div class="thumb">
+                            <img src="./4.png" width="100px" alt="">
+                        </div>
+                        <div class="excert">
+                            <p>The course is very comprehensive. They have an excellent team who guided us at every stage. This is the best share market classes in Pune....</p>
+                        </div>
+                        <div class="info">
+                            <p>
+                                <i class="fa fa-quote-right"></i>
+                                <a href="#">Mr.Sagar Borawke</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item1">
+                    <div class="inner">
+                        <div class="thumb">
+                            <img src="./2.png" width="100px" alt="">
+                        </div>
+                        <div class="excert">
+                            <p>It feels like you are actually being converted into a stock trader. Good training on each topic related to the Stock Market, I am very grateful to the institution and the coach for being supportive throughout the process.</p>
+                        </div>
+                        <div class="info">
+                            <p>
+                                <i class="fa fa-quote-right"></i>
+                                <a href="#">Mr.Sharukh Momin</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- #################################################################################  Installment  ####################################################################################### -->
+
+    <section class="installment" id="contact">
+        <div class="installment-content">
+            <h1 data-aos="fade-right" data-aos-offset="100">Want To Join The Program But Not Able To Pay At Once?</h1>
+            <img src="./check-box.png" alt="" data-aos="fade-right" data-aos-offset="100">
+            <p data-aos="fade-right" data-aos-offset="200" data-aos-delay="100">No Worries! We have a solution for you. Getting Stock Market education is more flexible now! You can now pay in Installments!</p>
+            <img src="./check-box.png" alt="" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200">
+            <p data-aos="fade-right" data-aos-offset="200" data-aos-delay="200"> Moreover we offer less amount which is affordable. Let's not money stop us from learning, instead earn from now! Hurry up !!</p>
+        </div>
+    </section>
+
+    <section class="master">
+        <h1 data-aos="fade-right" data-aos-offset="100">MASTER TRADING WITH US !</h1>
+        <div class="inputs">
+            <form method="post" action="traderegister">
+                <input type="text" id="fname" name="fname" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <input type="text" id="number" name="number" placeholder="Your Phone Number" required>
+                <input type="submit" id="reg" value="Submit">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- #################################################################################  FQA  ####################################################################################### -->
+    <section class="faq">
+        <div class="faq-content">
+            <h1 data-aos="fade-up" data-aos-offset="100" data-aos-delay="100">FA<span>QS</span></h1>
+            <div class="row2" data-aos="fade-up" data-aos-offset="100" data-aos-delay="200">
+                <p>&gt; Do we need to have any prior knowledge before joining the course?</p>
+            </div>
+            <div class="row2" data-aos="fade-up" data-aos-offset="100" data-aos-delay="300">
+                <p>&gt; What is the age limit to attend the course?</p>
+            </div>
+            <div class="row2" data-aos="fade-up" data-aos-offset="100" data-aos-delay="400">
+                <p>&gt; What are the outcomes I will get after this course?</p>
+            </div>
+            <div class="row2" data-aos="fade-up" data-aos-offset="100" data-aos-delay="500">
+                <p>&gt; Any procedure for the paying fee in installments ?</p>
+            </div>
+        </div>
+        <!-- <div class="faq-image">
+        <img src="images/faq.png"  alt="">
+      </div> -->
+    </section>
+
+    <!-- #################################################################################  ReachUs  ####################################################################################### -->
+    <section class="google-map ">
+        <h1 data-aos="fade-up" data-aos-offset="100">Reach <span>Us</span></h1>
+        <div class="map-content ">
+            <iframe class="map " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.9551307937445!2d73.82031669999999!3d18.576061499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b900a4ac9e95%3A0x9640ee3b944c0696!2sTradengineer!5e0!3m2!1sen!2sin!4v1665725368010!5m2!1sen!2sin "
+                width="600 " height="450 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+        </div>
+    </section>
+
+    <!-- #################################################################################  Footer  ####################################################################################### -->
+ 
+    <footer class="sticky-footer">
+        <div class="footer-content">
+            <div class="top">
+                <div class="logo-details">
+                    <img src="./class logo.png" width="110em" alt="">
+                </div>
+                <div class="media-icons1">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name1">Company</li>
+                    <li><a href="#content">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#service">Our Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name1">Services</li>
+                    <li><a href="#">Education & Training</a></li>
+                    <li><a href="#">Daily Watch List </a></li>
+                    <li><a href="#">Free consultancy</a></li>
+                    <li><a href="#">Group Webinars</a></li>
+                </ul>
+                <div class="g">
+                </div>
+                <ul class="g">
+                    <li class="link_name1">Contact</li>
+                    <li><img src="./phone.png" width="20em" height="20em" alt=""><a href="#">7744887497</a></li>
+                    <li><img src="./comment.png" width="20em" height="20em" alt=""><a href="#"> tradengineer190522@gmail.com</a></li>
+                    <li><img src="./location.png" width="20em" height="20em" alt=""><a href="#"> Flat no.402, Shiv Lakshmi Apt, Makan Chowk, Old Sangvi, Pune-411027 Landmark, near Makan Hospital, Old Sangvi</a></li>
+                </ul>
+                
+            </div>
+        </div>
+      
+    </footer>
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script type="text/javascript" src="card.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Slick slider js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.slider1').slick({
+            slideToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: true,
+            speed: 800,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            infinite: true
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="alert/dist/sweetalert.css">
+	<script type="text/javascript">
+	var status = document.getElementById("status").value;
+	if(status == "success"){
+		swal("Thank You","Your Response is Submitted","success");
+	}
+</script>
+
+
+
+</body>
+
+</html>
