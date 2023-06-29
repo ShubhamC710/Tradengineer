@@ -832,7 +832,7 @@ nav ul li a {
     padding: 2.5em 3.5em;
     border-radius: 20px;
     margin-top: -50em;
-    margin-left: 70em;
+    margin-left: 60em;
     /*10em from right*/
     text-align: -webkit-center;
 }
@@ -863,7 +863,7 @@ nav ul li a {
 .imgcon {
     float: right;
     width: 50%;
-    margin-top: -31.2em;
+    margin-top: -27.8em;
 }
 
 .imgcon img {
